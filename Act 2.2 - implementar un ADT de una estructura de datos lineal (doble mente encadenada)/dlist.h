@@ -98,7 +98,7 @@ void DList<T>::insertion(T val) {
     DLink<T> *newDLink;
     newDLink = new DLink<T>(val);
 
-    if (size = 0) {
+    if (size == 0) {
         tail = newDLink;
         head = newDLink;
     } else {
